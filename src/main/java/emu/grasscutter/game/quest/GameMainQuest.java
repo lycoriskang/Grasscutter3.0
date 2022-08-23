@@ -346,7 +346,7 @@ public class GameMainQuest {
     public void save() {
         DatabaseHelper.saveQuest(this);
     }
-    
+
     public void delete() {
         DatabaseHelper.deleteQuest(this);
     }
